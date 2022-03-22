@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/204e050bf1.js" crossorigin="anonymous"></script>
+    <title>project 3</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+    /* .sv.logo {
+        margin-left: 20px;
+        height: 20px;
+        width: 20px;
+
+    } */
+
+    #background {
+        background: url('1.jpg') no-repeat;
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+    .container ul {
+        display: flex;
+        list-style: none;
+        /* color: white; */
+
+    }
+
+    .container ul:hover {
+        color: rgb(255, 255, 255);
+
+    }
+
+    .container ul li {
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-top: 30px;
+
+
+    }
+
+
+    .container ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #logo {
+        margin-left: 320px;
+        margin-top: -171px;
+    }
+    #logo img {
+        margin: 0 0;
+        height: 100px;
+        
+    }
+
+
+    .menu {
+        margin-left: 10%;
+    }
+
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+    body {
+        background: #f2f2f2;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .search {
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .searchTerm {
+        width: 100%;
+        border: 3px solid #8d9ea0;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+    }
+
+    .searchTerm:focus {
+        color: #8d9ea0;
+    }
+
+    .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #8d9ea0;
+        background: #8d9ea0;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    /*Resize the wrap to see the search bar change!*/
+    .wrap {
+        width: 15%;
+        position: absolute;
+        top: 16%;
+        left: 87%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+    #middleheading {
+        text-align: center;
+        padding: 75px;
+        font-size: 98px;
+        margin-top: -200px;
+
+    }
+
+    /* buttom area of first page */
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+    }
+
+    .item1 {
+        align-self: center;
+        justify-self: center;
+
+        margin: 10px;
+        height: 200px;
+        width: 400px;
+
+    }
+
+
+    .left-content {
+        margin-top: 90px;
+        font-size: 19px;
+    }
+
+    
+    .right-content {
+        margin-top: 90px;
+    }
+
+    .material-icons {
+        cursor: pointer;
+        color: white;
+        margin-left: 145px;
+        margin-top: 130px;
+        font-size: 100px;
+    }
+    .material-icons:hover {
+        color: rgb(0, 0, 0);
+        /* text-shadow: 2px 2px 4px  rgb(85, 224, 248); */
+    }
+    
+
+    /* container1 */
+    .background1 {
+        background-color: rgb(236, 232, 232);
+        height: 100vh;
+        display: flex;
+
+    }
+
+    img {
+        padding: 150px 10px;
+        /* border:1px solid black; */
+        margin-right: 50px;
+    }
+
+    .container1 {
+        height: 515px;
+    }
+
+    .para1 {
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    /* container2 */
+    .background2 {
+        background-color: rgb(236, 232, 232);
+        height: 100vh;
+        display: flex;
+
+    }
+
+    /* /* img {
+        padding: 150px 10px;
+        border:1px solid black;
+        margin-right: 50px;
+    }  */
+    .container2 {
+        height: 515px;
+    }
+
+    .para2 {
+        font-size: 20px;
+        margin-top: 250px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    .last {
+        display: flex;
+        padding-left: 50px;
+        height: 30vh;
+        background-color: rgb(236, 232, 232);
+        ;
+    }
+
+    .last ul {
+
+        margin-left: 250px;
+        margin-top: 50px;
+        list-style: none;
+    }
+
+    .last ul li {
+        color: rgb(80, 197, 2);
+        margin-top: 10px;
+    }
+
+    .last ul li:hover {
+        text-decoration: underline;
+    }
+
+    .left1 ul li a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .left1 ul li a:hover {
+        text-decoration: underline;
+
+    }
+
+    .middle1 ul li a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .middle1 ul li a:hover {
+        text-decoration: underline;
+
+    }
+
+    .right1 ul li a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .right1 ul li a:hover {
+        text-decoration: underline;
+
+    }
+    
+</style>
+
+<body>
+    <div id="background">
+        <div class="container">
+            <ul>
+                <li>REALITY,ELEVATED</li>
+                <li class="sv">
+                    <div id="logo">
+                        <img src="24.png" alt="">
+                    </div>
+                </li>
+                <li class="menu a "><a href="http://10.70.8.185:5501/products.html">PRODUCTS</a></li>
+                <li class="a"><a href="http://10.70.8.185:5501/About%20us.html">ABOUT US</a></li>
+                <li class="a"><a href="http://10.70.8.185:5501/CONTACTS.html?#">CONTACTS</a></li>
+            </ul>
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="middleheading">
+           BEST FURNITURE
+        </div>
+        <div class="grid">
+            <div class="left item1">
+                <div class="left-content">
+                    The first known furniture is said to have existed in the Egyptian civilisation about 4000 years ago,
+                    though it might have existed in some crude form prior to that. The Egyptians arc said to have used
+                    chairs, tables, stools, chests, beds etc.
+                </div>
+            </div>
+            <div class="middle item1">
+                <div id="middle-content">
+                    <a href="#page2"> <span class="material-icons">
+                            arrow_circle_down
+                        </span></a>
+
+                </div>
+            </div>
+            <div class="right item1">
+                <div class="right-content">Furniture in Greenbelt A Sign of the Tough Times A view of the front of a
+                    typical housing project
+                    in the planned community of Greenbelt.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page2">
+        <div class="background1">
+            <div class="para1">The concept of furniture first developed as early as 3100-2500 B.C. The first items
+                created
+                for household use were made of stone, as wood was not readily available during the Neolithic time
+                period.
+                Dressers, cupboards and beds were amongst the first forms of furniture. The dresser was said to be the
+                most
+                important piece of furniture in the beginning, as they faced the entrance of each house in Neolithic
+                society
+                and often displayed carved artwork of symbolic objects.</div>
+            <img src="3.jpg" alt="">
+            <div class="container1">
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="background2">
+        <img src="4.jpg" alt="" style="margin-left:50px">
+        <div class="para2">The concept of furniture first developed as early as 3100-2500 B.C. The first items created
+            for household use were made of stone, as wood was not readily available during the Neolithic time period.
+            Dressers, cupboards and beds were amongst the first forms of furniture. The dresser was said to be the most
+            important piece of furniture in the beginning, as they faced the entrance of each house in Neolithic society
+            and often displayed carved artwork of symbolic objects.</div>
+
+        <div class="container2">
+
+        </div>
+    </div>
+    <hr>
+    <div class="background1">
+        <div class="para1">The concept of furniture first developed as early as 3100-2500 B.C. The first items created
+            for household use were made of stone, as wood was not readily available during the Neolithic time period.
+            Dressers, cupboards and beds were amongst the first forms of furniture. The dresser was said to be the most
+            important piece of furniture in the beginning, as they faced the entrance of each house in Neolithic society
+            and often displayed carved artwork of symbolic objects.</div>
+        <img src="5.jpg" alt="">
+        <div class="container1">
+        </div>
+    </div>
+    <hr>
+    <div class="last">
+        <div class="left1">
+            <ul>
+                <li>SITE MAP</li>
+                <li><a href="https://www.google.com/maps/place/Bahar+Collection/@27.5624477,76.6466793,17z/data=!3m1!4b1!4m5!3m4!1s0x39729753d94d927b:0x85da5bda93ffb437!8m2!3d27.5624645!4d76.6488728"
+                        target="_blank">ADDRESS</a></li>
+                <li><a href="http://10.70.8.185:5501/about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+        <div class="middle1">
+            <ul>
+                <li>SOCIAL MEDIA</li>
+                <li><a href="https://www.instagram.com/vinay_k8287/" target="_blank">INSTAGRAM</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN</a></li>
+            </ul>
+        </div>
+        <div class="right1">
+            <ul>
+                <li><a href="#background ">
+                    CLICK TO GO TO TOP</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
